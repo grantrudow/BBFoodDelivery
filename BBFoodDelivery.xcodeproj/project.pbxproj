@@ -20,6 +20,7 @@
 		603C32EA23E74FA5003733AD /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603C32E923E74FA5003733AD /* FoodData.swift */; };
 		603C32EC23E75001003733AD /* DetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603C32EB23E75001003733AD /* DetailRow.swift */; };
 		603C32EE23E752B5003733AD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603C32ED23E752B5003733AD /* DetailView.swift */; };
+		603C336823E77367003733AD /* OrderForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603C336723E77367003733AD /* OrderForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		603C32E923E74FA5003733AD /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
 		603C32EB23E75001003733AD /* DetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRow.swift; sourceTree = "<group>"; };
 		603C32ED23E752B5003733AD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		603C336723E77367003733AD /* OrderForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				603C32E923E74FA5003733AD /* FoodData.swift */,
 				603C32EB23E75001003733AD /* DetailRow.swift */,
 				603C32ED23E752B5003733AD /* DetailView.swift */,
+				603C336723E77367003733AD /* OrderForm.swift */,
 				603C32E723E74E2F003733AD /* Helper.swift */,
 				603C32BB23E747F2003733AD /* Assets.xcassets */,
 				603C32C023E747F3003733AD /* LaunchScreen.storyboard */,
@@ -285,6 +288,7 @@
 				603C32B623E747F0003733AD /* AppDelegate.swift in Sources */,
 				603C32EE23E752B5003733AD /* DetailView.swift in Sources */,
 				603C32E623E74DFB003733AD /* Food.swift in Sources */,
+				603C336823E77367003733AD /* OrderForm.swift in Sources */,
 				603C32E823E74E2F003733AD /* Helper.swift in Sources */,
 				603C32EC23E75001003733AD /* DetailRow.swift in Sources */,
 				603C32EA23E74FA5003733AD /* FoodData.swift in Sources */,

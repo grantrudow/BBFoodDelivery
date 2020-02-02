@@ -10,7 +10,9 @@ import SwiftUI
 
 struct DetailRow: View {
     
+    @Binding var showOrderSheet: Bool
     var food: Food
+    
     
     var body: some View {
         HStack {
@@ -22,7 +24,7 @@ struct DetailRow: View {
                     .font(.caption)
             }
             Spacer()
-            Button(action: {print("Order received")}) {
+            Button(action: {self.showOrderSheet = true; print("Order received")}) {
                 Text("Order")
                     .foregroundColor(.white)
             }
@@ -36,6 +38,6 @@ struct DetailRow: View {
 
 struct DetailRow_Previews: PreviewProvider {
     static var previews: some View {
-        DetailRow(food: foodData[0])
+        DetailRow(showOrderSheet: .constant(false), food: foodData[0])
     }
 }
